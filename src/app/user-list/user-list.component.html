@@ -1,0 +1,16 @@
+<!-- src/app/user-list/user-list.component.html -->
+<div *ngIf="users.length > 0" class="user-list-container">
+    <h2>User List</h2>
+    <ul class="user-list">
+      <li *ngFor="let user of users" class="user-list-item">
+        <div class="user-info">
+          <h3>{{ user.first_name }} {{ user.last_name }}</h3>
+          <p>Email: <a href="mailto:{{ user.email }}">{{ user.email }}</a></p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="users.length === 0" class="no-users">
+    <p>No users found.</p>
+  </div>
+  

@@ -1,0 +1,57 @@
+/* src/app/user-list/user-list.component.css */
+.user-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .user-list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .user-list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .user-info {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .user-info h3 {
+    margin: 0;
+    color: #444;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .no-users {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #999;
+  }
+  
